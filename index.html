@@ -1,8 +1,22 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>Mashup</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="codeIsPoetry.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Code is Poetry</title>
   </head>
-  <body>
+  <body class="Poetry">
+    <div>
+        <h1>Turn poetry into a representative collage of pictures from Instagram:</h1>
+      <input id="searchParams"></input>
+      <button id="#search-button" onclick="illustrateWords()">Transform into Images</button>
+    </div>
+    <div id="pictures" class="poem"></div>
+    <div id="authors" class="poem"></div>
+
   </body>
 </html>
+

@@ -1,30 +1,10 @@
-# Mashup project
+V1: I'm a really big fan of poetry, and what I find really interesting about it is how it transforms over time. Words take on new meanings, imagery gets richer or more confusing; it's all about context.
 
-This project is open-ended!  Requirements:
+Seeing instagram and their tagging system as an eye into how the modern public visualizes concepts, I thought it would be cool to make a game to see if people could guess a poem based on a series of isntagram pictures, with each word being represented as a tag on a picture being shown, but once I actually attempted to do this I realized that people will tag thier selfies with ANYTHING to get more likes, so this experiment kind of fails. Nevertheless, this makes AJAX requests and displays an image for each word (corresponding to a tag) typed in the input box, and gives credit to the usernames of the users whose images are displayed.
 
-* Build a site that uses data from at least one external API in an interesting, interactive way.
-* Replace this README with a description of the project.
-* You are welcome to use any 3rd-party libraries/frameworks – just load them from a CDN (e.g. [cdnjs](http://cdnjs.com)), or put them under the [`vendor/`](vendor/) folder.
 
-The JS code should be **non-trivial**.  That being said... start simple!  No server-side coding is required, but feel free to create a backend in whatever language if you like, if you need one.
+Issues I still need to work on:
+(1) Due to the nature of AJAX requests, the images don't appear in the correct order. I've been playing around with this/stack-overflow-ing my brains out, but I haven't gotten there yet.
+(2) I couldn't get the event handlers on my backbone view working correctly. Going to keep working with that.
+(3) The render call is ugly. When I tried to set the URL on the model and call fetch, it gave me an error that I need to keep working on.
 
-* [AJAX demos](https://github.com/advanced-js/deck/tree/gh-pages/demos/ajax)
-* [list of API suggestions](https://gist.github.com/afeld/4952991)
-* [inspiration?](http://www.programmableweb.com/mashups)
-
-## V1
-
-First pass.
-
-## V2
-
-Iterate!
-
-* Refactor
-* Add a new feature
-
-## Bonus points
-
-* automated tests
-    * [Sinon.js fakeServer](http://sinonjs.org/docs/#fakeServer) may be helpful
-* fancy interactivity/animations
