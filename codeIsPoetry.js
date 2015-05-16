@@ -40,8 +40,4 @@ $(document).ready(function(){
     return str.replace("\'", "").replace(",", "").replace(";", "").replace("(", "").replace(")", "").replace('.', ' ').replace("-", "").replace("\"", "").replace("!", "").replace("?", "");
   };
 
-
-
-
-
 });
